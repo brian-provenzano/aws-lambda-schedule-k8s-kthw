@@ -4,7 +4,7 @@ Contains a couple of quick and dirty lambda functions that in conjunction with C
 AKA as save me some money on my personal AWSing...
 
 ## Overview
-Contains a couple of quick and dirty lambda functions that in conjunction with CloudWatch Event rules (scheduled), start/stop K8s instances that I created while playing around with Kubernetes The Hard Way AWS version (my fork with scripts created as I type: [https://github.com/brian-provenzano/kubernetes-the-hard-way-aws](brian-provenzano/kubernetes-the-hard-way-aws))
+Contains a couple of quick and dirty lambda functions that in conjunction with CloudWatch Event rules (scheduled), start/stop K8s instances that I created while playing around with Kubernetes The Hard Way AWS version  - my fork with scripts created as went through the process: [brian-provenzano/kubernetes-the-hard-way-aws](https://github.com/brian-provenzano/kubernetes-the-hard-way-aws)
 
 ## Components / Requirements
 - `start-instances-k8s-kthw.py` - starts the instances tagged with tags with name:value = K8S:controller, K8S:worker
